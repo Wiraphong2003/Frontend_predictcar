@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>predicted Car</title>
+</head>
+<body>
+    <div class="container">
+        <h1>THE PREDICT RESULT IS A CAR MODEL</h1>
+        <input type="file" id="imageInput" accept="image/*" class="custom-file-input">
+        <label for="imageInput" class="custom-file-label" id="imageInputLabel">Choose Image</label>
+        <button id="convertButton">Predict</button>
+        <div id="resultContainer">
+            <h1 id="predictcar"></h1>
+        </div>
+        <div id="imagePreviewContainer"> <!-- Add this container -->
+            <!-- <h4 id="textPerview" style="opacity: 0;">Image Preview:</h4> -->
+        <img id="imagePreview" src="#" alt="Image Preview" style="opacity: 0;">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
